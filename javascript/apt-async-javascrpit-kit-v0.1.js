@@ -1,5 +1,5 @@
 // Link dynamic stylesheets in dom
-async function async_apt_link_stylesheets(data = []){
+async function apt_async_javascript_kit_v0_1_link_stylesheets(data = []){
     data.forEach(function (item) {
         var styles = document.createElement('link');
         styles.rel = 'stylesheet';
@@ -10,7 +10,7 @@ async function async_apt_link_stylesheets(data = []){
 }
 
 // Link dynamic script files in dom
-async function async_apt_link_scrpits(data = []){
+async function apt_async_javascript_kit_v0_1_link_scrpits(data = []){
     console.log('apt link scrpits init');
     data.forEach(function (item) {
         var scrpit = document.createElement('script');
