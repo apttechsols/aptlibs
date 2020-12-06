@@ -31,9 +31,9 @@ apt_async_javascript_kit_v0_1_link_scrpits(['assets/vendor/jquery/dist/jquery.mi
 >>> Usages >>>
 
 ### apt_jquery_kit_v0_1_includes_html_by_class ###
-<div class="apt-includes-html" apt-includes-html="./header.html"></div>
-<div class="apt-includes-html" apt-includes-html="./footer.html"></div>
-apt_jquery_kit_v0_1_includes_html_by_class({'class':'apt-includes-html'});
+#<div class="apt-includes-html" apt-includes-html="./header.html"></div>
+#<div class="apt-includes-html" apt-includes-html="./footer.html"></div>
+#apt_jquery_kit_v0_1_includes_html_by_class({'class':'apt-includes-html'});
 
 # CDN Link of apt-async-jquery-kit-v0.1.js 
 >>> https://raw.githack.com/apttechsols/aptlibs/master/javascript/apt-async-jquery-kit-v0.1.js 
