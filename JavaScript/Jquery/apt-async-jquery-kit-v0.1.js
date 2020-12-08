@@ -1,4 +1,4 @@
-function apt_jquery_kit_v0_1_includes_html_by_class(data={}) {
+function apt_async_jquery_kit_v0_1_includes_html_by_class(data={}) {
     if ('class' in data){
         data['attr'] = data['class'];
     }
