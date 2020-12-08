@@ -21,7 +21,7 @@ function apt_async_jquery_kit_v0_1_includes_html_by_class(data={}) {
             // $(".remove-just-this").replaceWith(cnt);
             /*remove the attribute, and call this function once more:*/
             elmnt.removeAttribute(data['attr']);
-            apt_jquery_kit_v0_1_includes_html_by_class({'class':data['class']});
+            apt_async_jquery_kit_v0_1_includes_html_by_class({'class':data['class']});
           }
         }      
         xhttp.open("GET", file, true);
