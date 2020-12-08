@@ -1,7 +1,7 @@
 # aptlibs Javascript
 
 # CDN Link of apt-javascrpit-kit-v0.1.js
->>> https://raw.githack.com/apttechsols/aptlibs/master/javascript/apt-javascrpit-kit-v0.1.js
+>>> https://raw.githack.com/apttechsols/aptlibs/master/JavaScript/JavaScript/apt-javascrpit-kit-v0.1.js
 >>> Usages >>>
 
 ### apt_javascript_kit_v0_1_link_stylesheets ###
@@ -14,7 +14,7 @@ apt_javascript_kit_v0_1_link_scrpits(['assets/vendor/jquery/dist/jquery.min.js',
 >>> Usages >>>
 
 # CDN Link of apt-async-javascrpit-kit-v0.1.js
->>> https://raw.githack.com/apttechsols/aptlibs/master/javascript/apt-async-javascrpit-kit-v0.1.js
+>>> https://raw.githack.com/apttechsols/aptlibs/master/JavaScript/JavaScript/apt-async-javascrpit-kit-v0.1.js
 
 
 ### apt_async_javascript_kit_v0_1_link_stylesheets ###
