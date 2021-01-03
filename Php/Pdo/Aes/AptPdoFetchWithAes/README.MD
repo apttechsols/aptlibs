@@ -4,7 +4,7 @@
 1. require($_SERVER['DOCUMENT_ROOT'].'<---path of dir--->/Apt/Php/Pdo/Aes/AptPdoFetchWithAes/index.php');
 
 # How to call function
-2. AptPdoFetchWithAes(['Condtion'=> "username::::apt::,::email::::admin@apt.com",'FetchData'=>'name::::mobile' ,'DbCon'=> $db_connection, 'TbName'=> 'account', 'EPass'=> '1234567890','DefaultCheckFor'=>'Any','FetchRowNo'=>'All']);
+2. AptPdoFetchWithAes(['Condtion'=> "username::::apt::,::e-mail::::admin@apt.com",'FetchData'=>'name::::mobile' ,'DbCon'=> $db_connection, 'TbName'=> 'account', 'EPass'=> '1234567890','DefaultCheckFor'=>'Any','FetchRowNo'=>'All']);
 
 # Parameters
 
