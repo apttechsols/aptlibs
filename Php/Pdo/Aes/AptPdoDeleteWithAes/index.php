@@ -4,25 +4,6 @@
 	*@des It return data if Data exist otherwise it return error
 	*@Author Arpit sharma
 	*/
-
-	// Not show Any error
-	error_reporting(0);
-	if(!DomainName){
-		// Get server port type (exampale - http:// or https://)
-		if ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || $_SERVER['SERVER_PORT'] == 443) {
-			$HeaderSecureType = "https://";
-		}else{
-			$HeaderSecureType = "http://";
-		}
-		// Create Domain name and save it in const variable
-		define("DomainName",  $HeaderSecureType.$_SERVER['HTTP_HOST']);
-	}
-	
-	if(EPASS != 'UwRxVTHAN6IeR3IZpLD8Tg8u2twZW56mN'){
-		header("Location: " . RootPath . "Library/SiteComponents/PageNotFound/index.php"); die();
-		exit();
-	}
-	
 	function AptPdoDeleteWithAes($Data=array()){
 		$DefaultCheckFor = 'All'; $DefaultCheckType = 'Equal'; $AcceptNullCondtion = False;
 		foreach ($Data as $key=>$value){
